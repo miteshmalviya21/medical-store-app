@@ -34,7 +34,7 @@ public class SaleItem {
 
     @ManyToOne
     @JoinColumn(name = "sale_id")
-    private SaleItem sale;
+    private Sales sale;
 
     @ManyToOne
     @JoinColumn(name = "medicine_id")

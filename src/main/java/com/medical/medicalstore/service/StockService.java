@@ -6,14 +6,14 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.medical.medicalstore.entity.Stock;
-import com.medical.medicalstore.repository.StockReopsitory;
+import com.medical.medicalstore.repository.StockRepository;
 
 @Service
 public class StockService {
 
-	private StockReopsitory stockRepository;
+	private StockRepository stockRepository;
 	
-	public StockService(StockReopsitory stockRepository) {
+	public StockService(StockRepository stockRepository) {
 		this.stockRepository = stockRepository;
 	}
 	
