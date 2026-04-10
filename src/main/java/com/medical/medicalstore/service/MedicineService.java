@@ -10,7 +10,7 @@ import com.medical.medicalstore.repository.MedicineRepository;
 @Service
 public class MedicineService {
 
-	private MedicineRepository medicineRepository;
+	private final MedicineRepository medicineRepository;
 	
 	public MedicineService(MedicineRepository medicineRepository) {
 		this.medicineRepository = medicineRepository;
