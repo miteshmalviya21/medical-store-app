@@ -20,7 +20,7 @@ public class MedicineService {
 		return medicineRepository.save(med);
 	}
 	
-	List<Medicine> getAll(){
+	public List<Medicine> getAll(){
 		return medicineRepository.findAll();
 	}
 	
